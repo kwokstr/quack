@@ -1,0 +1,56 @@
+body{
+    background-color:#8EACCD;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+    font-size: 8vw;
+}
+.main{
+    color: aliceblue;
+    font-family: cursive;
+    margin: 1vw 4.5vw;
+    font-size: 1.5vw;
+    text-align:justify;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.333%;
+}
+#btn-group{
+    background-color: aliceblue;
+    font-family: cursive;
+    display: block;
+    border: 1px solid aliceblue;
+    color: black;
+    padding: 10px 24px;
+    width: 50%;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    font-size: 1.25vw;
+    border-radius: 40px;
+}
+#btn-group:hover{
+    background-color: #8EACCD;
+    color: aliceblue;
+}
+.hidden{display: none;}
+.show{display: block;}
+.card-title{
+    padding: 10px 24px;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    margin-right: 4.5vw;
+    border-radius: 10px;
+}
+.card{
+    color: black;
+    padding: 15px 24px;
+    font-family:cursive;
+    margin-right: 4.5vw;
+    border-radius: 10px;
+}
